@@ -3,7 +3,6 @@
 
 ## Write a short comment describing this function
 
-makeCacheMatrix <- function(x = matrix()) {
 
 makeCacheMatrix <- function(matrix = matrix()) {
   #this matrix takes the input and sets the matrix and returns a list of 4 functions. this list is the special matrix. 
@@ -35,7 +34,6 @@ makeCacheMatrix <- function(matrix = matrix()) {
 ## Write a short comment describing this function
 #Now we write a function that takes the list created by the above function and used it. 
 
-cacheSolve <- function(x, ...) {
 cacheSolve <- function(special_matrix, ...) {
   
         ## Return a matrix that is the inverse of 'x'
